@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/app.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+    <main class="min__vh--100 container">
+        <section class="d__item">
+            <div class="header__content">
+                <h1>Blur Background</h1>
+                <p>Choose, add and personalize your background</p>
+            </div>
+            <div class="form-group">
+                <button id="btn__add--circle" class="btn">Agregar</button>
+                <button id="btn__remove--background" class="btn">Quitar blur</button>
+            </div>
+            <div class="form-group">
+                <input type="range" value="200" max="900" min="100" step="10" name="input__range--size"
+                    id="input__range--size">
+                <p>Size: <span id="input__range--value">200px</span></p>
+            </div>
+        </section>
+
+        <section class="d__item">
+            <div class="bg__blur">
+                <span class="bg__blur--absolute"></span>
+                <span class="content__circles"></span>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
